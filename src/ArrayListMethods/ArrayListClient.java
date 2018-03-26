@@ -11,6 +11,7 @@ public class ArrayListClient extends ArrayList {
 		ArrayList al1=new ArrayList();
 		ArrayList al2=new ArrayList();
 		ArrayList al3=new ArrayList();
+		ArrayList al4=new ArrayList();
 		
 		System.out.println("***********ArrayList Methods**************");
 		al.add(20);
@@ -37,7 +38,8 @@ public class ArrayListClient extends ArrayList {
 		al2.clear();
 		System.out.println("After Clear : "+al2);
 		
-		System.out.println("After Clone : "+al.clone());
+		al4=(ArrayList) al.clone();
+		System.out.println("After Clone : "+al4);
 		
 		if(al1.contains(34)) {
 			System.out.println("Contains 34");
