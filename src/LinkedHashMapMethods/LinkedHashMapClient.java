@@ -26,6 +26,9 @@ public class LinkedHashMapClient {
 		
 		lhm.clear();
 		System.out.println("After clear : "+lhm);
+		
+		
+		//removeEldestEntry
 	}
 
 }

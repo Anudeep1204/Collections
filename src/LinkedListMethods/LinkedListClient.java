@@ -104,6 +104,18 @@ public class LinkedListClient{
 		
 
 		System.out.println("PeekLast(Tail Element) of ll : "+ll.peekLast());
+
+		ll.poll();
+		System.out.println("After Poll : "+ll);//18 is removed
+		
+		
+		ll.pollFirst();
+		System.out.println("After PollFirst : "+ll);//20 is removed
+		
+
+		ll.pollLast();
+		System.out.println("After PollLast : "+ll);//34 is removed
+		
 		
 		ll.remove(2);
 		System.out.println("After removing 2 index 25 in ll : "+ll);
